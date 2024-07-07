@@ -20,7 +20,8 @@
 .dark-2 {
     color: #474747;
 }
-.dark-3{
+
+.dark-3 {
     color: #757575;
 }
 
@@ -192,10 +193,37 @@ main {
 
 
 /* Resume section  */
-.mainResume > h1{
+.mainResume>h1 {
     text-align: center;
-    margin: 130px 0px 113px 0px;
+    margin: 130px 0px 90px 0px;
 }
-.Resume{
+
+.Resume {
     display: flex;
+}
+
+.leftSide>h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rightSide>h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.resumeInfo {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+.resumeInfo>h3{
+    margin: 10px 0 20px 0;
+}
+.resumeBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
 }
