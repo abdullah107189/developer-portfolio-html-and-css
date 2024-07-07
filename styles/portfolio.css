@@ -20,6 +20,9 @@
 .dark-2 {
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 
 .primaryBtn {
     background-color: #FD6E0A;
@@ -36,7 +39,7 @@
 .main_header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, right bottom; 
+    background-position: top left, right bottom;
 }
 
 .header {
@@ -106,4 +109,93 @@ nav li a {
 
 .banner-image {
     width: 584px;
+}
+
+/* main section  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section  */
+.main-about {
+    padding: 140px;
+    margin: 150px 0px;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+
+.about>p {
+    margin-top: 30px;
+    color: #757575;
+}
+
+.about {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+.about-info>.info>p {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-info>.info>h1 {
+    font-size: 20px;
+    font-weight: 20px;
+    color: #474747;
+}
+
+/* skill section  */
+.skillMainSectin {}
+
+.skillTitle {
+    text-align: center;
+}
+
+.skillTitle>h1 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill-info {
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+
+.sill-info {
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.sill-info>h1 {
+    font-size: 20px;
+    font-weight: 20px;
+    color: #474747;
+    margin: 10px 0;
+
+}
+
+.sill-info>p {
+    font-size: 16px;
+    color: #757575;
+}
+
+
+
+/* Resume section  */
+.mainResume > h1{
+    text-align: center;
+    margin: 130px 0px 113px 0px;
+}
+.Resume{
+    display: flex;
 }
