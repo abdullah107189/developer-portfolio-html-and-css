@@ -395,10 +395,7 @@ main {
         padding: 20px;
     }
 
-    .about-info>.info>p {
-        font-size: 20px;
-        color: #757575;
-    }
+
 
     .about-info>.info>h1 {
         font-size: 20px;
@@ -426,24 +423,50 @@ main {
         gap: 20px;
     }
 
-    .sill-info {
-        padding: 30px;
+    /* Resume section  */
+    .mainResume>h1 {
+        text-align: center;
+        margin: 40px 0px 0px 0px;
+        font-size: 30px;
+    }
+
+    .Resume {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        column-gap: 20px;
+    }
+
+    .leftSide>h1 {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .rightSide>h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .resumeInfo {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        padding: 20px;
+        gap: 10px;
+        border-radius: 10px;
     }
 
-    .sill-info>h1 {
-        font-size: 20px;
-        font-weight: 20px;
-        color: #474747;
-        margin: 10px 0;
-
+    .resumeInfo>h3 {
+        margin: 10px 0 20px 0;
     }
 
-    .sill-info>p {
-        font-size: 16px;
-        color: #757575;
+    .resumeBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
     }
 
-
+    .rightSide>h1 {
+        margin-top: 20px;
+    }
 
 }
